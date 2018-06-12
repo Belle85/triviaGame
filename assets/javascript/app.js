@@ -28,7 +28,10 @@ var myQuestions = {
         answers:["answer1", "answer2", "answer3", "answer4"]
     },
 }  
-    
+// * User clicks "Start" to begin the game and first question displays.
+$("#startBtn").on("click", function StartGame() {
+    console.log("This is the click to start the game.");
+});
 
 // * User clicks "Start" to begin the game and first question displays.
 
@@ -40,4 +43,4 @@ var myQuestions = {
 
 // * On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
 
-}
+})
