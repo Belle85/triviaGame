@@ -1,6 +1,7 @@
 // console.log("This is to confirm my JS file is linked");
 
 $(document).ready(function () {
+    $(".questionsBox").hide(0000);
 
 var myQuestions = {
     questionOne:{
@@ -35,9 +36,13 @@ var myQuestions = {
     },
 }  
 // * User clicks "Start" to begin the game and first question displays.
-$("#startBtn").on("click", function StartGame() {
-    console.log("This is the click to start the game.");
-});
+    $("#startBtn").click(function startGame(){
+        $(".triviaBox").hide(1000);
+        $(".questionsBox").show(1000);
+        
+    });
+    
+
 
 // * User clicks "Start" to begin the game and first question displays.
 
