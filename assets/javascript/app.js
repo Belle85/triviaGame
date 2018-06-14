@@ -10,26 +10,28 @@ var myQuestions = {
     },
     questionTwo:{
         question: "As it is often times reminded to the French,  which war did they surrender?",
-        answers:["WWI", "WW2", "The Cinco de Mayo battle", "All of the above"],
-        correctAnswer:"WW2"
+        answers:["WWI", "WWII", "The Cinco de Mayo battle", "All of the above"],
+        correctAnswer:"WWII"
     },
     questionThree:{
-        question: "Which of these electro band is French?",
+        question: "Which of these electro bandS is French?",
         answers:["Tangerine Dream", "Infected Mushroom", "Daft Punk", "Depeche Mode"],
         correctAnswer:"Daft Punk"
     },
     questionFour:{
         question: "what nikname was given to French by the British?",
         answers:["The Frogs", "The Snails", "The Bloody Frenchies", "The Bread Eaters"],
-
+        correctAnswer:"The Frogs",
     },
     questionFive:{
-        question: "French are know for eat:",
-        answers:["Rabbit", "Snails", "Frogs", "All of the above"]
+        question: "French are know for eating:",
+        answers:["Rabbit", "Snails", "Frogs", "All of the above"],
+        correctAnswer: "All of the above",
     },
     questionSix:{
         question: "which of these cheeses is not a French cheese?:",
-        answers:["Bleu de Gand", "Tomme", "Camembert", "Fourme d'Asco"]
+        answers:["Bleu de Gand", "Tomme", "Camembert", "Fourme d'Asco"],
+        correctAnswer:"Bleu de Gand",
     },
 }  
 // * User clicks "Start" to begin the game and first question displays.

@@ -2,7 +2,8 @@ body{
     background: url(../images/parisBackground.jpg) no-repeat center center fixed;
 }
 
-.triviaBox{
+.triviaBox,
+.questionsBox{
     background: white;
     margin-top:250px;
     padding: 15px;
@@ -18,3 +19,19 @@ h1{
      margin: 40px;
      font-size: 48px;
  }
+
+ #timer{
+     border: 1px solid grey;
+     padding: 10px;
+     margin: 15px;
+ }
+
+ #question{
+     margin: 20px;
+     padding:10px;
+ }
+
+ a:hover{
+    background-color: yellow;
+    padding: 15px;
+}
