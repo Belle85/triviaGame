@@ -5,27 +5,31 @@ $(document).ready(function () {
 var myQuestions = {
     questionOne:{
         question: "What is the tradition behind the onion soup?",
-        answers:["The soup is brought in bed at night to the newly weds.", "answer2", "answer3", "answer4"],
+        answers:["The soup is brought to the the newly weds, the night of their wedding.", " In the XXI century, the onion soup was offered to the parents of a young woam menstruating for the first time.", "The onion soup was tradionnally served the nights a criminal was being beheaded.", "Churches used to organized banquets and serve onion soup on Ash Sunday."],
+        correctAnswer:"The soup is brought, the night of the wedding to the newly weds., in their bed.",
     },
     questionTwo:{
-        question: "As it is often times reminded to the Frnehc,  which war did they surrender?",
-        answers:["answer1", "answer2", "answer3", "answer4"]
+        question: "As it is often times reminded to the French,  which war did they surrender?",
+        answers:["WWI", "WW2", "The Cinco de Mayo battle", "All of the above"],
+        correctAnswer:"WW2"
     },
     questionThree:{
         question: "Which of these electro band is French?",
-        answers:["answer1", "answer2", "answer3", "answer4"]
+        answers:["Tangerine Dream", "Infected Mushroom", "Daft Punk", "Depeche Mode"],
+        correctAnswer:"Daft Punk"
     },
     questionFour:{
-        question: "what nikname was given to us by the Brits?",
-        answers:["answer1", "answer2", "answer3", "answer4"]
+        question: "what nikname was given to French by the British?",
+        answers:["The Frogs", "The Snails", "The Bloody Frenchies", "The Bread Eaters"],
+
     },
     questionFive:{
         question: "French are know for eat:",
-        answers:["answer1", "answer2", "answer3", "answer4"]
+        answers:["Rabbit", "Snails", "Frogs", "All of the above"]
     },
     questionSix:{
         question: "which of these cheeses is not a French cheese?:",
-        answers:["answer1", "answer2", "answer3", "answer4"]
+        answers:["Bleu de Gand", "Tomme", "Camembert", "Fourme d'Asco"]
     },
 }  
 // * User clicks "Start" to begin the game and first question displays.
